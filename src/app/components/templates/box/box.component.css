@@ -1,0 +1,12 @@
+.box {
+  background-color: rgba(248, 245, 245, 0.9);
+  color: #222731;
+  min-width: 300px;
+  min-height: 200px;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.title {
+  font-size: large;
+}

@@ -1,0 +1,17 @@
+.background {
+  background-color: #222731;
+}
+
+.body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.nav-elem {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar {
+  background-color: rgba(18, 21, 26, 0.95);
+}

@@ -1,0 +1,33 @@
+<div class="background body">
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 sidebar">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
+          <a href="/" class="d-flex align-items-center p-3 mb-md-0 me-md-auto text-decoration-none text-white">
+            <i class="bi-journal fs-4"></i>
+            <span class="fs-5 d-none d-sm-inline ms-4">jam</span>
+          </a>
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li class="nav-item">
+              <a href="/" class="nav-link align-middle">
+                <i class="fs-4 bi-house nav-elem"></i> <span class="d-none d-sm-inline nav-elem ms-3">Home</span>
+              </a>
+              <a href="todo" data-bs-toggle="collapse" class="nav-link align-middle">
+                <i class="fs-4 bi-check-square nav-elem"></i> <span
+                class="d-none d-sm-inline nav-elem ms-3">Todo</span>
+              </a>
+              <a href="skills" class="nav-link align-middle">
+                <i class="fs-4 bi-graph-up nav-elem"></i> <span class="d-none d-sm-inline nav-elem ms-3">Skills</span></a>
+              <a href="friends" data-bs-toggle="collapse" class="nav-link align-middle">
+                <i class="fs-4 bi-people nav-elem"></i> <span class="d-none d-sm-inline nav-elem ms-3">Friends</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-auto">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div>
