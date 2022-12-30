@@ -12,6 +12,7 @@ import { TimerComponent } from './components/timer/timer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BoxComponent } from './components/templates/box/box.component';
 import { LoginComponent } from './pages/login/login.component';
+import { CallbackComponent } from './pages/login/callback/callback.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LoginComponent } from './pages/login/login.component';
     FriendsComponent,
     TimerComponent,
     BoxComponent,
-    LoginComponent
+    LoginComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,
