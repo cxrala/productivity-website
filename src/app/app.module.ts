@@ -11,6 +11,7 @@ import { FriendsComponent } from './pages/friends/friends.component';
 import { TimerComponent } from './components/timer/timer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BoxComponent } from './components/templates/box/box.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BoxComponent } from './components/templates/box/box.component';
     TodoComponent,
     FriendsComponent,
     TimerComponent,
-    BoxComponent
+    BoxComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
