@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { OAUTH2_URLS } from 'src/app/config';
+import { ENDPOINTS } from 'src/app/config';
 
 @Component({
   selector: 'app-login',
@@ -7,5 +7,5 @@ import { OAUTH2_URLS } from 'src/app/config';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-    public OAUTH2_URLS = OAUTH2_URLS;
+    public ENDPOINTS = ENDPOINTS;
 }
